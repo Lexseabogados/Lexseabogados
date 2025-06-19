@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>García & Abogados – Despacho jurídico en San Luis Potosí</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans antialiased bg-gray-50 text-gray-800">
+    <!-- HERO -->
+    <header class="bg-gradient-to-br from-indigo-600 to-purple-600 text-white py-24">
+      <div class="container mx-auto px-6 text-center max-w-4xl">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 motion-safe:animate-fade-in">
+          García & Abogados
+        </h1>
+        <p class="text-lg md:text-xl mb-8 motion-safe:animate-fade-in">
+          Asesoría legal especializada con atención cercana y resultados
+          comprobados.
+        </p>
+        <a
+          href="https://wa.me/5214441234567?text=Hola%20necesito%20una%20cita"
+          class="inline-block bg-white text-indigo-700 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:shadow-xl transition motion-safe:animate-fade-in"
+          >Agendar cita por WhatsApp</a
+        >
+      </div>
+    </header>
+
+    <!-- SERVICES -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 text-center max-w-6xl">
+        <h2 class="text-3xl font-bold mb-12">Áreas de especialidad</h2>
+        <div
+          class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 motion-safe:animate-fade-in"
+        >
+          <div class="bg-white rounded-2xl shadow p-6">
+            <h3 class="text-xl font-semibold mb-2">Derecho Familiar</h3>
+            <p>Divorcios, pensión alimenticia y patria potestad.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow p-6">
+            <h3 class="text-xl font-semibold mb-2">Derecho Civil</h3>
+            <p>Contratos, arrendamientos y litigios patrimoniales.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow p-6">
+            <h3 class="text-xl font-semibold mb-2">Derecho Penal</h3>
+            <p>Defensa y asesoría integral en procesos penales.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow p-6">
+            <h3 class="text-xl font-semibold mb-2">Derecho Laboral</h3>
+            <p>Despidos injustificados y asesoría a trabajadores.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow p-6">
+            <h3 class="text-xl font-semibold mb-2">Derecho Fiscal</h3>
+            <p>Defensa ante SAT, estrategias fiscales y amparos.</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow p-6">
+            <h3 class="text-xl font-semibold mb-2">Mediación y Arbitraje</h3>
+            <p>Soluciones alternativas eficaces y rápidas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="bg-white py-16">
+      <div class="container mx-auto px-6 max-w-6xl grid lg:grid-cols-2 gap-12 items-center">
+        <img
+          src="https://images.unsplash.com/photo-1555374018-13a8994ab246?auto=format&fit=crop&w=800&q=60"
+          alt="Equipo de abogados"
+          class="rounded-2xl shadow-lg w-full h-64 object-cover motion-safe:animate-fade-in"
+        />
+        <div class="motion-safe:animate-fade-in">
+          <h2 class="text-3xl font-bold mb-4">Experiencia y compromiso</h2>
+          <p class="mb-4">
+            Con más de <strong>15 años</strong> de trayectoria, nuestro despacho ha
+            ayudado a cientos de clientes a resolver sus conflictos legales con
+            transparencia y trato humano.
+          </p>
+          <p>
+            Nuestra misión es brindar asesoría clara, estratégica y oportuna,
+            prioritizando siempre los intereses de nuestros clientes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 max-w-3xl text-center motion-safe:animate-fade-in">
+        <h2 class="text-3xl font-bold mb-6">Agenda tu consulta hoy mismo</h2>
+        <p class="mb-8">
+          Envíanos un mensaje por WhatsApp o llámanos al
+          <a href="tel:+524441234567" class="text-indigo-600 font-medium"
+            >444‑123‑4567</a
+          >. También puedes completar el siguiente formulario y nos pondremos en
+          contacto contigo.
+        </p>
+
+        <form
+          action="https://formspree.io/f/yourformid"
+          method="POST"
+          class="grid gap-4 text-left"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Nombre completo"
+            required
+            class="p-3 rounded-2xl border-gray-300 border focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+            class="p-3 rounded-2xl border-gray-300 border focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+          <textarea
+            name="message"
+            placeholder="Describe brevemente tu caso"
+            rows="4"
+            required
+            class="p-3 rounded-2xl border-gray-300 border focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-indigo-600 text-white font-semibold py-3 rounded-2xl shadow-md hover:bg-indigo-700 transition"
+          >
+            Enviar solicitud
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-800 text-gray-200 py-6 text-center">
+      <p class="text-sm">
+        © 2025 García & Abogados. Todos los derechos reservados. | Aviso de
+        privacidad
+      </p>
+    </footer>
+  </body>
+</html>
